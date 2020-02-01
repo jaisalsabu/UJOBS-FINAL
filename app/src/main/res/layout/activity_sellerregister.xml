@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_bg"
+        android:orientation="vertical"
+        tools:context=".sellerregister"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.369">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="16dp"
+
+                android:layout_marginRight="16dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/sellerregistration_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="REGISTRATION"
+                    android:fontFamily="@font/roboto_light"
+                    android:textColor="@color/white"
+
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="8dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp"
+                        android:background="@drawable/gradient_bg"
+                        android:paddingTop="8dp">
+
+                        <TextView
+                            android:id="@+id/sellernametxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Name"
+                            android:fontFamily="@font/roboto_light"
+                            android:textColor="@color/grey"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/sellername"
+                            android:layout_width="333dp"
+                            android:layout_height="51dp"
+                            android:background="@drawable/bt"
+                            android:drawableStart="@drawable/username"
+                            android:drawableLeft="@drawable/username"
+                            android:ems="15"
+                            android:fontFamily="@font/roboto_light"
+                            android:inputType="text"
+                            android:padding="8dp"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/selleremailtxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Email"
+                            android:fontFamily="@font/roboto_light"
+                            android:textColor="@color/grey"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/selleremail"
+                            android:layout_width="333dp"
+                            android:layout_height="51dp"
+                            android:background="@drawable/bt"
+                            android:drawableStart="@drawable/email"
+                            android:drawableLeft="@drawable/email"
+                            android:ems="15"
+                            android:fontFamily="@font/roboto_light"
+                            android:inputType="textEmailAddress"
+                            android:padding="8dp"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/sellerphonetxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="Phone"
+                            android:fontFamily="@font/roboto_light"
+                            android:textColor="@color/grey"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/sellerphone"
+                            android:layout_width="333dp"
+                            android:layout_height="51dp"
+                            android:background="@drawable/bt"
+                            android:drawableStart="@drawable/phone"
+                            android:drawableLeft="@drawable/phone"
+                            android:ems="15"
+                            android:fontFamily="@font/roboto_light"
+                            android:inputType="phone"
+                            android:padding="8dp"
+                            android:textSize="16sp"
+                            android:windowSoftInputMode="stateAlwaysHidden" />
+
+                        <TextView
+                            android:id="@+id/selleraddresstxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="Address"
+                            android:fontFamily="@font/roboto_light"
+                            android:textColor="@color/grey"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/selleraddress"
+                            android:layout_width="333dp"
+                            android:layout_height="51dp"
+                            android:background="@drawable/bt"
+                            android:drawableStart="@drawable/place"
+                            android:drawableLeft="@drawable/place"
+                            android:ems="15"
+                            android:fontFamily="@font/roboto_light"
+                            android:inputType="text"
+                            android:padding="8dp"
+                            android:textSize="16sp" />
+                        <TextView
+                            android:id="@+id/sellerpasswordtxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="Password"
+                            android:fontFamily="@font/roboto_light"
+                            android:textColor="@color/grey"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/sellerpassword"
+                            android:layout_width="333dp"
+                            android:layout_height="51dp"
+                            android:background="@drawable/bt"
+                            android:drawableStart="@drawable/pass"
+                            android:drawableLeft="@drawable/pass"
+                            android:ems="15"
+                            android:fontFamily="@font/roboto_light"
+                            android:inputType="textPassword"
+                            android:padding="8dp"
+                            android:textSize="16sp" />
+                        <TextView
+                            android:id="@+id/sellercnpasswordtxt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:text="Confirm Password"
+                            android:fontFamily="@font/roboto_light"
+                            android:textColor="@color/grey"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/sellercnpassword"
+                            android:layout_width="333dp"
+                            android:layout_height="51dp"
+                            android:background="@drawable/bt"
+                            android:drawableStart="@drawable/pass"
+                            android:drawableLeft="@drawable/pass"
+                            android:ems="15"
+                            android:fontFamily="@font/roboto_light"
+                            android:inputType="textPassword"
+                            android:padding="8dp"
+                            android:textSize="16sp" />
+
+
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/sellerregister_card"
+                            android:layout_width="281dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_margin="16dp"
+                            app:cardCornerRadius="24dp"
+                            app:cardElevation="8dp">
+
+                            <Button
+                                android:id="@+id/sellerregister_button"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/btn"
+                                android:ems="15"
+                                android:text="REGISTER"
+                                android:fontFamily="@font/roboto_light"
+                                android:textAllCaps="false"
+                                android:textColor="#000000"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </android.support.v7.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/text"
+                            android:layout_width="281dp"
+                            android:layout_height="29dp"
+                            android:layout_marginTop="16dp"
+                            android:text="LOGIN"
+                            android:fontFamily="@font/roboto_light"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
+    </android.support.constraint.ConstraintLayout>

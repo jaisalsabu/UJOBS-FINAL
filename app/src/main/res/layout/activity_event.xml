@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="413dp"
+
+
+        android:layout_height="854dp"
+        android:layout_marginStart="2dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/tid3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:text="Transaction ID:"
+            android:textColorHint="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tid"
+            android:layout_width="367dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bt"
+            android:padding="10dp"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tid2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:text="Name:"
+            android:textColorHint="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tid4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:text="Phone Number:"
+            android:textColorHint="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pnn"
+            android:layout_width="139dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bt"
+            android:ems="10"
+            android:padding="10dp"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tid6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:text="Email ID:"
+            android:textColorHint="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/padd"
+            android:layout_width="141dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bt"
+            android:padding="10dp"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tid7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:text="Address:"
+            android:textColorHint="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pemail"
+            android:layout_width="147dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bt"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tid8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:text="Nos:"
+            android:textColorHint="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pph3"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bt"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/noss"
+            android:layout_width="152dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bt"
+            android:padding="10dp"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tid9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:text="Price:"
+            android:textColorHint="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pri"
+            android:layout_width="152dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bt"
+            android:padding="10dp"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tid10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:text="Product Name:"
+            android:textColorHint="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/prnm"
+            android:layout_width="154dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bt"
+            android:padding="10dp"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tid11"
+            android:layout_width="368dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:text="Product Details:"
+            android:textColorHint="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/prdt"
+            android:layout_width="382dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bt"
+            android:padding="10dp"
+            android:textColorHint="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="518dp"
+            android:layout_height="4dp"
+            android:background="@drawable/btn" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

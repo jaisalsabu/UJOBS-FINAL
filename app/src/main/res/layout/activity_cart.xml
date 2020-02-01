@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    tools:context=".Cart">
+
+    <TextView
+        android:id="@+id/pname70"
+        android:layout_width="209dp"
+        android:layout_height="41dp"
+        android:fontFamily="@font/roboto_light"
+        android:padding="8dp"
+        android:text="NUMBER OF VACCANCIES"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.572" />
+
+    <TextView
+        android:id="@+id/pname60"
+        android:layout_width="221dp"
+        android:layout_height="37dp"
+        android:fontFamily="@font/roboto_light"
+        android:padding="8dp"
+        android:text="POSITION"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.451" />
+
+    <TextView
+        android:id="@+id/pname50"
+        android:layout_width="148dp"
+        android:layout_height="34dp"
+        android:fontFamily="@font/roboto_light"
+        android:padding="8dp"
+        android:text="COMPANY NAME"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.338"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.334" />
+
+
+    <TextView
+        android:id="@+id/pname90"
+        android:layout_width="148dp"
+        android:layout_height="34dp"
+        android:fontFamily="@font/roboto_light"
+        android:padding="8dp"
+        android:text="COMPANY NAME"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.323"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.691" />
+
+    <TextView
+        android:id="@+id/pname9"
+        android:layout_width="231dp"
+        android:layout_height="46dp"
+        android:background="@drawable/bt"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.753" />
+
+    <TextView
+        android:id="@+id/pname30"
+        android:layout_width="231dp"
+        android:layout_height="46dp"
+        android:background="@drawable/bt"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/pname40"
+        android:layout_width="235dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="528dp"
+        android:src="@drawable/suite"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pname20"
+        android:layout_width="231dp"
+        android:layout_height="46dp"
+        android:background="@drawable/bt"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.389" />
+
+    <TextView
+        android:id="@+id/pname0"
+        android:layout_width="231dp"
+        android:layout_height="46dp"
+        android:background="@drawable/bt"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636" />
+
+    <Button
+        android:id="@+id/p_btn0"
+        android:layout_width="160dp"
+        android:layout_height="52dp"
+        android:background="@drawable/btn"
+        android:fontFamily="@font/roboto_light"
+        android:text="ADD TO POOL"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.944" />
+
+</android.support.constraint.ConstraintLayout>
+
+

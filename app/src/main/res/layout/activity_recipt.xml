@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    tools:context="com.msg91.sendotp.sample.Recipt">
+
+    <TextView
+        android:id="@+id/rpdetails"
+        android:layout_width="252dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bt"
+        android:fontFamily="@font/roboto_light"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.916" />
+
+    <TextView
+        android:id="@+id/rpname"
+        android:layout_width="252dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bt"
+        android:fontFamily="@font/roboto_light"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.835" />
+
+    <TextView
+        android:id="@+id/rprice"
+        android:layout_width="252dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bt"
+        android:fontFamily="@font/roboto_light"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745" />
+
+    <TextView
+        android:id="@+id/rname"
+        android:layout_width="252dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bt"
+        android:fontFamily="@font/roboto_light"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.316" />
+
+    <TextView
+        android:id="@+id/radd"
+        android:layout_width="252dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bt"
+        android:fontFamily="@font/roboto_light"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57" />
+
+    <TextView
+        android:id="@+id/remail"
+        android:layout_width="252dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bt"
+        android:fontFamily="@font/roboto_light"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.486" />
+
+    <TextView
+        android:id="@+id/rph"
+        android:layout_width="252dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bt"
+        android:fontFamily="@font/roboto_light"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.402" />
+
+    <TextView
+        android:id="@+id/rid"
+        android:layout_width="252dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bt"
+        android:fontFamily="@font/roboto_light"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.235" />
+
+    <TextView
+        android:id="@+id/rnos"
+        android:layout_width="252dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bt"
+        android:fontFamily="@font/roboto_light"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.657" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="121dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="145dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:tint="@color/white"
+        app:srcCompat="@drawable/recipt" />
+
+</android.support.constraint.ConstraintLayout>

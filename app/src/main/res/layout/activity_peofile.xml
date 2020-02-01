@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="156dp"
+        android:layout_height="98dp"
+        android:layout_gravity="center"
+        android:tint="@color/white"
+        app:srcCompat="@drawable/usero" />
+
+    <TextView
+        android:id="@+id/docyou31"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/bt"
+        android:drawableStart="@drawable/username"
+        android:drawableLeft="@drawable/username"
+        android:fontFamily="@font/roboto_light"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dw1"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bt"
+        android:drawableStart="@drawable/phone"
+        android:drawableLeft="@drawable/phone"
+        android:padding="10dp"
+        android:fontFamily="@font/roboto_light"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/demail1"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bt"
+        android:drawableStart="@drawable/email"
+        android:drawableLeft="@drawable/email"
+        android:padding="10dp"
+        android:fontFamily="@font/roboto_light"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dob1"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt"
+        android:drawableLeft="@drawable/datee"
+        android:drawableStart="@drawable/datee"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/roboto_light"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="17dp"/>
+
+    <TextView
+        android:id="@+id/daddress1"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/place"
+        android:drawableLeft="@drawable/place"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/bt"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:fontFamily="@font/roboto_light"
+        />
+
+    <TextView
+        android:id="@+id/dgender1"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt"
+        android:drawableLeft="@drawable/username"
+        android:drawableStart="@drawable/username"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/roboto_light"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rdname1"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt"
+        android:drawableStart="@drawable/enter"
+        android:drawableLeft="@drawable/enter"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/roboto_light"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

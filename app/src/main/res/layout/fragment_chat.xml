@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+android:background="@drawable/gradient_bg">
+
+
+  <EditText
+      android:id="@+id/trtid"
+      android:layout_width="333dp"
+      android:layout_height="51dp"
+      android:layout_marginLeft="40dp"
+      android:layout_marginTop="15dp"
+      android:background="@drawable/btnn"
+      android:drawableStart="@drawable/enter"
+      android:drawableLeft="@drawable/enter"
+      android:hint="Enter Your Track ID"
+      android:fontFamily="@font/roboto_light"
+      android:paddingLeft="8dp"
+      android:paddingTop="8dp"
+      android:paddingRight="16dp"
+      android:paddingBottom="8dp"
+      android:textColor="@color/black"
+      android:textColorHint="@color/black"
+      android:textSize="20sp"
+      android:textStyle="bold" />
+
+  <Button
+      android:id="@+id/tr_btn"
+      android:layout_width="wrap_content"
+      android:layout_height="40dp"
+
+      android:layout_marginLeft="155dp"
+      android:layout_marginTop="15dp"
+      android:background="@drawable/btn"
+      android:onClick="logout"
+      android:padding="4dp"
+      android:text="TRACK"
+      android:fontFamily="@font/roboto_light"
+      android:textAllCaps="false"
+      android:textColor="@color/black"
+      android:textSize="16sp" />
+
+  <TextView
+      android:id="@+id/tpn"
+      android:layout_width="333dp"
+      android:layout_height="51dp"
+      android:layout_marginLeft="37dp"
+      android:layout_marginTop="19dp"
+      android:background="@drawable/bt"
+      android:hint="Phone Number"
+      android:padding="10dp"
+      android:fontFamily="@font/roboto_light"
+      android:paddingLeft="8dp"
+      android:paddingRight="16dp"
+      android:paddingBottom="8dp"
+      android:textColor="@color/black"
+      android:textColorHint="@color/black"
+      android:textSize="16sp" />
+
+  <TextView
+      android:id="@+id/tpd"
+      android:layout_width="333dp"
+      android:layout_height="51dp"
+      android:hint="Status"
+      android:fontFamily="@font/roboto_light"
+      android:padding="10dp"
+      android:background="@drawable/bt"
+      android:maxLength="10"
+      android:textColorHint="@color/black"
+      android:paddingLeft="8dp"
+      android:paddingRight="16dp"
+      android:paddingBottom="8dp"
+      android:textColor="@color/black"
+      android:textSize="16sp"
+      android:layout_marginLeft="37dp"
+      android:layout_marginTop="19dp" />
+
+
+</LinearLayout>
