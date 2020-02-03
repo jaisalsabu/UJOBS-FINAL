@@ -49,8 +49,6 @@ holder.purchase.setOnClickListener(new View.OnClickListener() {
 
 
         Intent i = new Intent(mCtx, Purchase.class);
-        // i.putExtra("BitmapImage", image);
-        // your bitmap
         i.putExtra("comname", cheque.getComname());
         i.putExtra("image", cheque.getImage());
         i.putExtra("contact",cheque.getContact());

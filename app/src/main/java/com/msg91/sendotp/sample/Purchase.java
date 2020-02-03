@@ -39,9 +39,9 @@ bt.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View view) {
         Intent i= new Intent(Intent.ACTION_CALL);
-        i.setData(Uri.parse("tel:"+i.getStringExtra("contact")));
+        i.setData(Uri.parse("tel:"+Contact));
         Toast.makeText(Purchase.this,"Calling  "+employer,Toast.LENGTH_LONG).show();
-        startActivity(i);
+       startActivity(i);
     }
 });
     }
